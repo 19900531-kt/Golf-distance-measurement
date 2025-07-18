@@ -64,7 +64,7 @@ class GolfClubSelector(tk.Tk):
             if adjusted_distance >= club_dist:
                 self.result_label.config(text=f"おすすめクラブ: {club}")
                 return
-        self.result_label.config(text="該当するクラブがありません")
+        self.result_label.config(text="該当するクラブがありません。")
 
 if __name__ == "__main__":
     app = GolfClubSelector()
